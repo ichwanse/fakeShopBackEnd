@@ -1,0 +1,1 @@
+--insert into product (id,title, price, description, category, image) values (1,'Gelatine Leaves - Bulk', 9045, 'Other motor vehicle nontraffic accident involving collision with moving object injuring other specified person', 'Retaining Wall and Brick Pavers', 'http://dummyimage.com/150x100.png/cc0000/ffffff');
