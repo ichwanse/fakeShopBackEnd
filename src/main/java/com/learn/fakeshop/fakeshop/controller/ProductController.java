@@ -35,6 +35,6 @@ public class ProductController {
         fakeShopService.createProduct(product);
         return new ResponseEntity<>(HttpStatus.CREATED);
     }
-    
+
 
 }
