@@ -30,7 +30,7 @@ public class ProductController {
         );
     }
 
-    @PostMapping(path="/products")
+    @PostMapping
     public ResponseEntity<?> createProduct(@RequestBody Product product){
         fakeShopService.createProduct(product);
         return new ResponseEntity<>(HttpStatus.CREATED);
